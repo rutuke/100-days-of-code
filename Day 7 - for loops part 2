@@ -1,0 +1,27 @@
+//Exercise 1
+
+for(n = -10; n<20; n++){
+    console.log(n);
+}
+
+//Exercise 2
+
+for(n = 10; n <=40; n+=2){
+    console.log(n);
+}
+
+//Exercise 3
+
+for(n = 300; n <333; n++){
+    if(n%2 !== 0){
+        console.log(n);
+    }
+}
+
+//Exercise 4
+
+for(n = 5; n < 50; n++){
+    if(n%3 === 0 && n%5 === 0){
+        console.log(n);
+    }
+}
